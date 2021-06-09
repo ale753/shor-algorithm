@@ -3,14 +3,6 @@ from braket.devices import LocalSimulator
 import math
 from fractions import Fraction
 
-# function to build a GHZ state
-def build_U(circuit,replication) :
-    i = 0
-    for i in range (0, replication) : 
-        circuit.ccx(0,1,2)
-        circuit.cx(0,1)
-    return circuit
-
 def inverse_qft(qubits):
     # instantiate circuit object
     qftcirc = Circuit()
@@ -38,6 +30,7 @@ def inverse_qft(qubits):
     
     return qftcirc
 
+#Creating the circuit for 13^i mod(35)
 circuit = Circuit()
 
 circuit.h(0)
@@ -70,8 +63,7 @@ print(circuit)
 
 device = LocalSimulator()
 
-#bell = Circuit().h(0).cnot(0, 1)
-print(device.run(circuit, shots=4).result().measurement_counts)
+#print(device.run(circuit, shots=4).result().measurement_counts)
 
 counts = device.run(circuit, shots=10).result().measurement_counts
 
