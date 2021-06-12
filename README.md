@@ -7,7 +7,7 @@ In this repository you will find a quantum circuit that implements :
 
 using Qiskit and AWS Bracket both with locally simulated quantum computers. The circuit finds the prime factors of 35 with the Quantum Phase Estimation.
 
-This exercise was proposed in the IBM Quantum Challenge 2021.
+This is a possible solution of the exercise proposed for the IBM Quantum Challenge 2021.
 
 This guide will soon be available on Medium after a complete review and errors correction.
 
