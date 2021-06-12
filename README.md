@@ -128,4 +128,14 @@ The series of U circuits will be placed between Hadamard gates, which put the Qb
 Follows the implementation and simulation of the circuit, included in this repository
 
 
+## References
+
+https://en.wikipedia.org/wiki/Quantum_logic_gate
+https://en.wikipedia.org/wiki/Shor%27s_algorithm
+https://qiskit.org/textbook/ch-algorithms/shor.html
+https://qiskit.org/textbook/ch-algorithms/quantum-phase-estimation.html
+https://challenges.quantum-computing.ibm.com/iqc21
+https://github.com/aws/amazon-braket-examples
+https://jonathan-hui.medium.com/qc-cracking-rsa-with-shors-algorithm-bc22cb7b7767
+
 
