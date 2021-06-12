@@ -1,5 +1,5 @@
 # Shor algorithm implemented with Qiskit and AWS Bracket
-In this repository you will find two different the implementation of a quantum circuit that implements :  
+In this repository you will find a quantum circuit that implements :  
 
 <p align="center">
   <img width="100" height="50" src="https://user-images.githubusercontent.com/33957205/121774840-97553f00-cb84-11eb-9bf3-16155f949394.png">
