@@ -9,7 +9,7 @@ using Qiskit and AWS Bracket both with locally simulated quantum computers. The 
 
 This is a possible solution of the exercise proposed for the IBM Quantum Challenge 2021.
 
-This guide will soon be available on Medium after a complete review and errors correction.
+I plan to make this guide available on Medium after a complete review and errors correction.
 
 ## The algorithm explained
 
