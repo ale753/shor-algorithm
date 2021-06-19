@@ -1,4 +1,4 @@
-# Shor algorithm implemented with Qiskit and AWS Bracket
+# Shor algorithm implemented with Qiskit and AWS Braket
 In this repository you will find a quantum circuit that implements :  
 
 <p align="center">
